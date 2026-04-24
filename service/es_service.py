@@ -7,9 +7,9 @@ from elasticsearch import Elasticsearch
 load_dotenv()
 
 # Set ES properties
-es_host_url = os.environ.get('es_host_url')
-es_username = os.environ.get('es_username')
-es_password = os.environ.get('es_password')
+es_host_url = os.environ.get('elasticsearch_host_url')
+es_username = os.environ.get('elasticsearch_username')
+es_password = os.environ.get('elasticsearch_password')
 
 # Initialize Elasticsearch with authentication
 es = Elasticsearch(
