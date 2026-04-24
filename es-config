@@ -1,6 +1,6 @@
 env = dev
 openai_api_key = sk-1234567890
 cloud_id = 1234567890
-elasticsearch_host_url = http://10.30.3.51:9200
+elasticsearch_host_url = http://10.30.3.55:9200
 elasticsearch_username = root
 elasticsearch_password = ptcs@2023
